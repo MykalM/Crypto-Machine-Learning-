@@ -18,8 +18,11 @@ Building from our **Portfolio Risk Analyzer** we decided to incorporate a Machin
 
 ## 2. Trading Strategy
 Viewing the price data and the buy/sell signals
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/98198920/183314000-3e53f27c-c0db-48aa-9904-b27a726f346e.gif)
+
 Volume & MACD
+
 ![image](https://user-images.githubusercontent.com/98198920/183315051-5661f139-fc16-4d9c-8a02-b9a463e33df1.png)
 
 Finding the optimal parameters
