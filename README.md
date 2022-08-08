@@ -1,53 +1,56 @@
-# Crypto-Machine-Learning
-## Background
-Building from our **Crypto Portfolio Risk Analyzer** we decided to incorporate different Machine Learning methodologies to our cryptocurrency trading strategies to maximize profits for our clients. By utilizing the power of Machine Learning we are able to backtest multiple trading strategies, further improving our clients portfolio performance and profits. With the addition of Amazon's Lexbot clients are able to easily convert currencies, and purchase select cryptocurrencies in real time.
+# **Crypto-Machine-Learning**
 
-## Table of Contents
+**Smart exposure to digital currencies**, This application uses an interactive client user interface to collect investment information from the user; it then recomends a cryptocurrency real-time conversaion rate using API calls. Building from our **Crypto Portfolio Risk Analyzer** We decided to incorporate different Machine Learning methodologies to our cryptocurrency trading strategies to maximize profits for our clients. By utilizing the power of Machine Learning we are able to backtest multiple trading strategies, further improving our clients portfolio performance and profits. With the addition of Amazon's Lexbot clients are able to easily convert currencies, and purchase select cryptocurrencies in real time. 
+
+This upgraded **Crypto Porfolio Risk Analyzer** is an innovative addition to the fintech industry. We want to offer optimized cryptocurrency porfolios to everyone, even those who lack the financial knowledge and understanding of cryptocurrencies. We plan to build additional features into this like the ability to link to cryptocurrency wallets, interactive and real time education on Machine Learning strategies for clients to choose from. 
+
+The class presentation is located here File: Presentation of the Crypto Risk Portfolio Analyzer[Machine Learning Crypto Converter and Analyzer.pdf](https://github.com/MykalM/Crypto-Machine-Learning-/files/9278601/Machine.Learning.Crypto.Converter.and.Analyzer.pdf)
+
+
+## **Table of Contents**
 1. [Front-end Interface](#1-Front-end-Interface)
 
 2. [Trading Strategy](#2-Trading-Strategy)
 
 3. [Simulation Trajectories](#3-Simulation-Trajectories)
 
-4. [Back-End Functionality](#4-Back-End-Functionality)
-
-5. [Compose the data story](#5-compose-the-data-story)
+4. [Compose the data story](#4-compose-the-data-story)
 
 ---
-## 1. Front-end Interface
+## 1. **Front-end Interface**
 Our service is only available for people over 21 years old. Clients can get the current price of the most popular cryptocurrencies including Bitcoin(BTC), Binance Coin(BNB), Ethereum(ETH), Cardano(ADA), Ripple(XRP) and Solana(SOL) in top traded national currencies - US dollars(USD), Japanese Yen(JPY), Korean Won(KRW), Euro(ERU), British Pounds(GBP) and Canadian dollars(CAD). 
 
 Below are videos showing how easy our clients can convert dollars to cryptocurrencies they wish for. 
  
-1. **Convert USD to BTC** 
+ - **Convert USD to BTC** 
 
 https://user-images.githubusercontent.com/103230949/183328929-217127a7-2c3c-43c9-a1a0-86992047304c.mp4
 
-2. **Convert EUR to SOL**
+ - **Convert EUR to SOL**
 
 https://user-images.githubusercontent.com/103230949/183328933-7d390948-d39c-492b-8b21-292ce17c37f4.mp4
 
 We also conducted different testing to ensure the accuracy of our chatbox. 
 
-- If clients select any national currencies outside of our service package, they will get an error message saying: 
+ - If clients select any national currencies outside of our service package, they will get an error message saying: 
 
 **_Sorry, I'm just able to convert from USD, JPY, KRW, EUR, GBP or CAD for now._**
 
 ![convertBRLerror_TEST](https://user-images.githubusercontent.com/103230949/183332822-e0d9a819-622c-46ac-82cc-8fe7389f44c0.png)
 
-- If clients select any cryptocurrencies outside of our service package, they will get an error message saying: 
+ - If clients select any cryptocurrencies outside of our service package, they will get an error message saying: 
 
 **_Sorry, I'm just able to convert from BTC, BNB, ETH, ADA, XRP or SOL for now._**
 
 ![convertUNIerror_TEST](https://user-images.githubusercontent.com/103230949/183332826-23aa2a82-bbd4-4659-8be8-f21a812cbfd8.png)
 
-- If clients entered dollar amount less or equal to zero, they will get an error message saying: 
+ - If clients entered dollar amount less or equal to zero, they will get an error message saying: 
 
 **_The amount to convert should be greater than zero, please provide a correct amount in dollars to convert._**
 
 ![convertZEROerror_TEST](https://user-images.githubusercontent.com/103230949/183332827-2a8999db-593a-413c-9511-2d45dd31aa7b.png)
 
-## 2. Trading Strategy
+## 2. **Trading Strategy**
 The graph below shows Bitcoin Price data buy/sell signals using the SuperTrend trading strategy. 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/98198920/183314000-3e53f27c-c0db-48aa-9904-b27a726f346e.gif)
@@ -62,7 +65,7 @@ Finding the optimal parameters
 Backtest results
 ![image](https://user-images.githubusercontent.com/98198920/183315195-df2516bd-b64c-44db-8158-6ac47cacc98d.png)
 
-## 3. Baseline Simulations
+## 3. **Baseline Simulations**
 The following portions of code constitue the inital proof-of-concept for our machine learning functionality. We included Perceptron, Logistic Regression, and Decision Tree Classifier Models in our early phases. 
 
 ```python
@@ -106,6 +109,12 @@ The following images show some of the initial results for our modeling. These re
 
 ![BNB-TREE](https://i.postimg.cc/bwXFJvJd/bnb-tree-8mos.png)
 
-## 4. Back-End Functionality
+## 4. Compose the data story
+Our portfolios are designed to minimize long-term risk while benefiting from the accumulated growth of the most popular and leading cryptocurrencies. Tired of hearing about stocks that already made investors a lot of money? Our Crypto Porfolio Advisors will help you pick top value stocks and cryptocurrencies with strong long-term growth potential. Utilizing real-time data users will have access to their own personal crypto advisors at the palm of their hands, or on their computer. You are in good hands with us!
 
-## 5. Compose the data story
+## 5. Contributors
+Jeremy Pierce - Machine Learning Lead
+Jay Wiley - Machine Learning Developer
+Mykal Morton - Cluster Analyst
+Vicky Lee - Client User Interface Designer
+
