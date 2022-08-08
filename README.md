@@ -1,6 +1,6 @@
 # Crypto-Machine-Learning
 ## Background
-Building from our **Portfolio Risk Analyzer** we decided to incorporate a Machine-Learning-Cryptocurrency trading strategy to maximize profits for our clients. By utilizing the power of machine learning we are able to backtest our trading strategies, further improving our clients profits. With the addition of Amazon's Lexbot clients are able to easily convert currencies, and purchase select cryptocurrencies.
+Building from our **Crypto Portfolio Risk Analyzer** we decided to incorporate different Machine Learning methodologies to our cryptocurrency trading strategies to maximize profits for our clients. By utilizing the power of Machine Learning we are able to backtest multiple trading strategies, further improving our clients portfolio performance and profits. With the addition of Amazon's Lexbot clients are able to easily convert currencies, and purchase select cryptocurrencies in real time.
 
 ## Table of Contents
 1. [Front-end Interface](#1-Front-end-Interface)
@@ -15,6 +15,27 @@ Building from our **Portfolio Risk Analyzer** we decided to incorporate a Machin
 
 ---
 ## 1. Front-end Interface
+Our service is only available for people over 21 years old. Clients can get the current price of the most popular cryptocurrencies including BTC, BNB, ETH, ADA, XRP and SOL in top traded national currencies (USD, JPY, KRW, ERU, GBP and CAD). 
+
+Below are videos showing how easy our clients can convert dollars to cryptocurrencies they wish for. 
+ 
+https://user-images.githubusercontent.com/103230949/183328929-217127a7-2c3c-43c9-a1a0-86992047304c.mp4
+
+https://user-images.githubusercontent.com/103230949/183328933-7d390948-d39c-492b-8b21-292ce17c37f4.mp4
+
+We also conducted different testing to ensure the accuracy of our chatbox. 
+
+If clients select any national currencies outside of our service package, they will get an error message saying: "Sorry, I'm just able to convert from USD, JPY, KRW, EUR, GBP or CAD for now."
+![convertBRLerror_TEST](https://user-images.githubusercontent.com/103230949/183332822-e0d9a819-622c-46ac-82cc-8fe7389f44c0.png)
+
+No error testing:
+![convertNOerror_TEST](https://user-images.githubusercontent.com/103230949/183332824-0258ab7b-011e-493e-9e33-b343329c5526.png)
+
+If clients select any cryptocurrencies outside of our service package, they will get an error message saying: "Sorry, I'm just able to convert from BTC, BNB, ETH, ADA, XRP or SOL for now."
+![convertUNIerror_TEST](https://user-images.githubusercontent.com/103230949/183332826-23aa2a82-bbd4-4659-8be8-f21a812cbfd8.png)
+
+If clients entered dollar amount less or equal to zero, they will get an error message saying: "The amount to convert should be greater than zero, please provide a correct amount in dollars to convert."
+![convertZEROerror_TEST](https://user-images.githubusercontent.com/103230949/183332827-2a8999db-593a-413c-9511-2d45dd31aa7b.png)
 
 ## 2. Trading Strategy
 The graph below shows Bitcoin Price data buy/sell signals using the SuperTrend trading strategy. 
