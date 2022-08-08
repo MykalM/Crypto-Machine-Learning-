@@ -17,7 +17,7 @@ Building from our **Portfolio Risk Analyzer** we decided to incorporate a Machin
 ## 1. Front-end Interface
 
 ## 2. Trading Strategy
-Viewing the price data and the buy/sell signals
+The graph below shows Bitcoin Price data buy/sell signals using the SuperTrend trading strategy. 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/98198920/183314000-3e53f27c-c0db-48aa-9904-b27a726f346e.gif)
 
