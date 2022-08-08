@@ -44,7 +44,7 @@ We also conducted different testing to ensure the accuracy of our chatbox.
 
 ![convertUNIerror_TEST](https://user-images.githubusercontent.com/103230949/183332826-23aa2a82-bbd4-4659-8be8-f21a812cbfd8.png)
 
- - If clients entered dollar amount less or equal to zero, they will get an error message saying:                            _The amount to convert should be greater than zero, please provide a correct amount in dollars to convert._
+ - If clients entered dollar amount less or equal to zero, they will get an error message saying:                              _The amount to convert should be greater than zero, please provide a correct amount in dollars to convert._
 
 ![convertZEROerror_TEST](https://user-images.githubusercontent.com/103230949/183332827-2a8999db-593a-413c-9511-2d45dd31aa7b.png)
 
