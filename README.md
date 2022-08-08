@@ -34,18 +34,17 @@ https://user-images.githubusercontent.com/103230949/183328933-7d390948-d39c-492b
 
 We also conducted different testing to ensure the accuracy of our chatbox. 
 
- - If clients select any national currencies outside of our service package, they will get an error message saying: 
-   **_Sorry, I'm just able to convert from USD, JPY, KRW, EUR, GBP or CAD for now._**
+ - If clients select any national currencies outside of our service package, they will get an error message saying:           
+   _Sorry, I'm just able to convert from USD, JPY, KRW, EUR, GBP or CAD for now._
 
 ![convertBRLerror_TEST](https://user-images.githubusercontent.com/103230949/183332822-e0d9a819-622c-46ac-82cc-8fe7389f44c0.png)
 
- - If clients select any cryptocurrencies outside of our service package, they will get an error message saying: 
-   **_Sorry, I'm just able to convert from BTC, BNB, ETH, ADA, XRP or SOL for now._**
+ - If clients select any cryptocurrencies outside of our service package, they will get an error message saying:               
+   _Sorry, I'm just able to convert from BTC, BNB, ETH, ADA, XRP or SOL for now._
 
 ![convertUNIerror_TEST](https://user-images.githubusercontent.com/103230949/183332826-23aa2a82-bbd4-4659-8be8-f21a812cbfd8.png)
 
- - If clients entered dollar amount less or equal to zero, they will get an error message saying: 
-   **_The amount to convert should be greater than zero, please provide a correct amount in dollars to convert._**
+ - If clients entered dollar amount less or equal to zero, they will get an error message saying:                            _The amount to convert should be greater than zero, please provide a correct amount in dollars to convert._
 
 ![convertZEROerror_TEST](https://user-images.githubusercontent.com/103230949/183332827-2a8999db-593a-413c-9511-2d45dd31aa7b.png)
 
@@ -114,7 +113,7 @@ The following images show some of the initial results for our modeling. These re
 Our portfolios are designed to minimize long-term risk while benefiting from the accumulated growth of the most popular and leading cryptocurrencies. Tired of hearing about stocks that already made investors a lot of money? Our Crypto Porfolio Advisors will help you pick top value stocks and cryptocurrencies with strong long-term growth potential. Utilizing real-time data users will have access to their own personal crypto advisors at the palm of their hands, or on their computer. You are in good hands with us!
 
 ## 5. Contributors
-Jeremy Pierce - Machine Learning Lead
+Jeremy Pierce - Machine Learning Lead,
 
 Jay Wiley - Machine Learning Developer,
 
