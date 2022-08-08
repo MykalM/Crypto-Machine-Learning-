@@ -20,24 +20,29 @@ Our service is only available for people over 21 years old. Clients can get the 
 Below are videos showing how easy our clients can convert dollars to cryptocurrencies they wish for. 
  
 1. **Convert USD to BTC** 
+
 https://user-images.githubusercontent.com/103230949/183328929-217127a7-2c3c-43c9-a1a0-86992047304c.mp4
 
 2. **Convert EUR to SOL**
+
 https://user-images.githubusercontent.com/103230949/183328933-7d390948-d39c-492b-8b21-292ce17c37f4.mp4
 
 We also conducted different testing to ensure the accuracy of our chatbox. 
 
 - If clients select any national currencies outside of our service package, they will get an error message saying: 
+
 **_Sorry, I'm just able to convert from USD, JPY, KRW, EUR, GBP or CAD for now._**
 
 ![convertBRLerror_TEST](https://user-images.githubusercontent.com/103230949/183332822-e0d9a819-622c-46ac-82cc-8fe7389f44c0.png)
 
 - If clients select any cryptocurrencies outside of our service package, they will get an error message saying: 
+
 **_Sorry, I'm just able to convert from BTC, BNB, ETH, ADA, XRP or SOL for now._**
 
 ![convertUNIerror_TEST](https://user-images.githubusercontent.com/103230949/183332826-23aa2a82-bbd4-4659-8be8-f21a812cbfd8.png)
 
 - If clients entered dollar amount less or equal to zero, they will get an error message saying: 
+
 **_The amount to convert should be greater than zero, please provide a correct amount in dollars to convert._**
 
 ![convertZEROerror_TEST](https://user-images.githubusercontent.com/103230949/183332827-2a8999db-593a-413c-9511-2d45dd31aa7b.png)
