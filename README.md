@@ -4,7 +4,7 @@
 
 This upgraded **Crypto Porfolio Risk Analyzer** is an innovative addition to the fintech industry. We want to offer optimized cryptocurrency porfolios to everyone, even those who lack the financial knowledge and understanding of cryptocurrencies. We plan to build additional features into this like the ability to link to cryptocurrency wallets, interactive and real time education on Machine Learning strategies for clients to choose from. 
 
-The class presentation is located here File: Presentation of the Crypto Risk Portfolio Analyzer[Machine Learning Crypto Converter and Analyzer.pdf](https://github.com/MykalM/Crypto-Machine-Learning-/files/9278601/Machine.Learning.Crypto.Converter.and.Analyzer.pdf)
+The class presentation is located here File: [Machine Learning Crypto Converter and Analyzer.pdf](https://github.com/MykalM/Crypto-Machine-Learning-/files/9278601/Machine.Learning.Crypto.Converter.and.Analyzer.pdf)
 
 
 ## **Table of Contents**
@@ -14,7 +14,9 @@ The class presentation is located here File: Presentation of the Crypto Risk Por
 
 3. [Simulation Trajectories](#3-Simulation-Trajectories)
 
-4. [Compose the data story](#4-compose-the-data-story)
+4. [Compose The Data Story](#4-Compose-The-Data-Story)
+
+5. [Contributors](#5-Contributors) 
 
 ---
 ## 1. **Front-end Interface**
@@ -55,18 +57,20 @@ The graph below shows Bitcoin Price data buy/sell signals using the SuperTrend t
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/98198920/183314000-3e53f27c-c0db-48aa-9904-b27a726f346e.gif)
 
-Volume & MACD
 
+Volume & MACD
 ![image](https://user-images.githubusercontent.com/98198920/183315051-5661f139-fc16-4d9c-8a02-b9a463e33df1.png)
+
 
 Finding the optimal parameters
 ![image](https://user-images.githubusercontent.com/98198920/183315281-68dfda73-19b9-4f91-9e9d-b2669d6dd5c3.png)
+
 
 Backtest results
 ![image](https://user-images.githubusercontent.com/98198920/183315195-df2516bd-b64c-44db-8158-6ac47cacc98d.png)
 
 ## 3. **Baseline Simulations**
-The following portions of code constitue the inital proof-of-concept for our machine learning functionality. We included Perceptron, Logistic Regression, and Decision Tree Classifier Models in our early phases. 
+The following portions of code constitue the inital proof-of-concept for our machine learning functionality. We included **Perceptron**, **Logistic Regression**, and **Decision Tree** Classifier Models in our early phases. 
 
 ```python
 perc_regression_model = Perceptron()
@@ -76,7 +80,8 @@ perc_predictions[0:10]
 perc_report = classification_report(y_test, perc_predictions,zero_division=1)
 print(perc_report)
 ```
-This code initializes the Perceptron Model. The last two lines are for performing backtesting of the model for accuracy.  
+
+This code initializes the **Perceptron** Model. The last two lines are for performing backtesting of the model for accuracy.  
 
 ```python
 logistic_regression_model = LogisticRegression()
@@ -86,7 +91,7 @@ predictions[0:10]
 lrm_report = classification_report(y_test, predictions, zero_division=1)
 print(lrm_report)
 ```
-This code initializes the Logisitc Regression Model. The last two lines are for performing backtesting of the model for accuracy. 
+This code initializes the **Logisitc Regression** Model. The last two lines are for performing backtesting of the model for accuracy. 
 
 ```python
 from sklearn import tree
@@ -97,13 +102,12 @@ tree_btc_predictions[0:10]
 tree_btc_report = classification_report(y_test, tree_btc_predictions, zero_division=1)
 print(tree_btc_report)
 ```
-This code initializes the Decision Tree Classifier Model. First we import the model in order to construct it. The last two lines are then used for backtesting purposes. 
+This code initializes the **Decision Tree** Classifier Model. First we import the model in order to construct it. The last two lines are then used for backtesting purposes. 
 
 **Initial Results**
 The following images show some of the initial results for our modeling. These results would later be improved upon in further revisions (See section #2).
 
 ![BTC-PERC](https://i.postimg.cc/DymKsmng/btc-perc-6mos.png)
-
 
 ![ETH-LRM](https://i.postimg.cc/N0knZwQF/eth-lrm-6mos.png)
 
@@ -113,8 +117,8 @@ The following images show some of the initial results for our modeling. These re
 Our portfolios are designed to minimize long-term risk while benefiting from the accumulated growth of the most popular and leading cryptocurrencies. Tired of hearing about stocks that already made investors a lot of money? Our Crypto Porfolio Advisors will help you pick top value stocks and cryptocurrencies with strong long-term growth potential. Utilizing real-time data users will have access to their own personal crypto advisors at the palm of their hands, or on their computer. You are in good hands with us!
 
 ## 5. Contributors
-Jeremy Pierce - Machine Learning Lead
-Jay Wiley - Machine Learning Developer
-Mykal Morton - Cluster Analyst
+Jeremy Pierce - Machine Learning Lead,
+Jay Wiley - Machine Learning Developer,
+Mykal Morton - Cluster Analyst,
 Vicky Lee - Client User Interface Designer
 
