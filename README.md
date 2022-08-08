@@ -72,6 +72,8 @@ Backtest results
 ## 3. **Baseline Simulations**
 The following portions of code constitue the inital proof-of-concept for our machine learning functionality. We included **Perceptron**, **Logistic Regression**, and **Decision Tree** Classifier Models in our early phases. 
 
+This code initializes the **Perceptron** Model. The last two lines are for performing backtesting of the model for accuracy. 
+
 ```python
 perc_regression_model = Perceptron()
 perc_model = perc_regression_model.fit(X_train_scaled, y_train)
@@ -81,7 +83,7 @@ perc_report = classification_report(y_test, perc_predictions,zero_division=1)
 print(perc_report)
 ```
 
-This code initializes the **Perceptron** Model. The last two lines are for performing backtesting of the model for accuracy.  
+This code initializes the **Logisitc Regression** Model. The last two lines are for performing backtesting of the model for accuracy. 
 
 ```python
 logistic_regression_model = LogisticRegression()
@@ -91,7 +93,7 @@ predictions[0:10]
 lrm_report = classification_report(y_test, predictions, zero_division=1)
 print(lrm_report)
 ```
-This code initializes the **Logisitc Regression** Model. The last two lines are for performing backtesting of the model for accuracy. 
+This code initializes the **Decision Tree** Classifier Model. First we import the model in order to construct it. The last two lines are then used for backtesting purposes. 
 
 ```python
 from sklearn import tree
@@ -102,7 +104,6 @@ tree_btc_predictions[0:10]
 tree_btc_report = classification_report(y_test, tree_btc_predictions, zero_division=1)
 print(tree_btc_report)
 ```
-This code initializes the **Decision Tree** Classifier Model. First we import the model in order to construct it. The last two lines are then used for backtesting purposes. 
 
 **Initial Results**
 The following images show some of the initial results for our modeling. These results would later be improved upon in further revisions (See section #2).
