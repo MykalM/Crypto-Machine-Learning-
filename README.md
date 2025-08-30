@@ -4,6 +4,31 @@
 
 This upgraded **Crypto Porfolio Risk Analyzer** is an innovative addition to the fintech industry. We want to offer optimized cryptocurrency porfolios to everyone, even those who lack the financial knowledge and understanding of cryptocurrencies. We plan to build additional features into this like the ability to link to cryptocurrency wallets, interactive and real time education on Machine Learning strategies for clients to choose from. 
 
+## Quickstart (modernized)
+
+Install minimal, cross-platform dependencies and run tests:
+
+```bash
+python -m pip install --upgrade pip
+pip install -e .
+pip install pytest
+pytest
+```
+
+Run the Streamlit demo app:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Core library modules are in `crypto_ml/`:
+- `data.loader`: Yahoo Finance OHLCV fetching
+- `indicators.supertrend`: SuperTrend calculation
+- `strategy.supertrend_strategy`: Signal generation
+- `backtesting.engine`: Vectorized backtester with costs and no-lookahead
+- `ml.walkforward`: Time-series walk-forward ML pipeline
+
+
 The class presentation is located here File: [Machine Learning Crypto Converter and Analyzer.pdf](https://github.com/MykalM/Crypto-Machine-Learning-/files/9278601/Machine.Learning.Crypto.Converter.and.Analyzer.pdf)
 
 
