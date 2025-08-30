@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: crypto-ml
+Version: 0.1.0
+Summary: Crypto ML indicators, backtesting, and walk-forward demo
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: yfinance>=0.2.30
+Requires-Dist: streamlit>=1.28.0
+Requires-Dist: plotly>=5.18.0
+Dynamic: license-file
